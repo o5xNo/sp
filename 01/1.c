@@ -3,6 +3,8 @@
 #include <memory.h>
 #include <time.h>
 
+//以范楊玄的code為參考做改寫
+//以了解
 
 
 struct Matrix{

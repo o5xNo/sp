@@ -13,3 +13,15 @@ void DOWHILE() {
   skip(";"); // 跳過分號
 }
 ````
+============ parse =============
+t0 = 1
+i = t0
+(L0)
+t1 = i
+t2 = 1
+t3 = t1 + t2
+i = t3
+t4 = i
+t5 = 10
+t6 = t4 < t5
+if T6 goto L0

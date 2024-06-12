@@ -8,11 +8,9 @@ gcc mid.c calculate.c -o mid
 
 輸入計算式
 
+輸入=
+
 按下enter
-
-等待5s左右
-
-ctrl+c
 
 
 

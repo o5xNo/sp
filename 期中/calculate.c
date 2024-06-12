@@ -39,6 +39,9 @@ Token next_token() {
             token.type = TOKEN_RPAREN;
             break;
         case '\n':
+        case '=':
+            token.type = TOKEN_END;
+            break;
         case EOF:
             token.type = TOKEN_END;
             break;
